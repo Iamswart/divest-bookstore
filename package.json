@@ -7,10 +7,8 @@
     "test": "jest --config jest.config.js",
     "development": "npm run build && node dist/server.js",
     "local": "nodemon src/server.ts",
-    "build": "rm -rf dist && npm run  build-ts",
-    "staging": "npm run build && node dist/server.js",
-    "production": "npm run build && node dist/server.js",
-    "build-ts": "tsc"
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
