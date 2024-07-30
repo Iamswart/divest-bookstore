@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+      /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+      "target": "ES6",
+      "module": "commonjs",
+      "allowJs": true,
+      "lib": ["ES2015", "DOM"],
+      "sourceMap": true,
+      "outDir": "dist",
+
+      "resolveJsonModule": true,
+
+      /* Strict Type-Checking Options */
+      "strict": true,
+      "strictPropertyInitialization": false,
+      "esModuleInterop": true,
+      "useUnknownInCatchVariables": false,
+
+      /* Experimental Options */
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+
+      /* Advanced Options */
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/database/migrations/**/*.js",
+      "src/database/seeders/**/*.js",
+      "tests/**/*"
+    ],
+    "exclude": ["**/*.spec.ts", "**/*.test.ts", "node_modules"]
+
+  }
+
